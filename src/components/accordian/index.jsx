@@ -33,14 +33,14 @@ export default function Accordian() {
       <div className="accordion">
         {data && data.length > 0 ? (
           data.map((dataItem) => (
-            <div className="item">
+            <div className="acc-item">
               <div
                 onClick={() =>
                   enableMultiSelection
                     ? handleMultiSelection(dataItem.id)
                     : hanldeSingleSelection(dataItem.id)
                 }
-                className="title"
+                className="acc-title"
               >
                 <h3>{dataItem.question}</h3>
                 <span>+</span>
@@ -54,7 +54,7 @@ export default function Accordian() {
                   )} */}
               {selected === dataItem.id ||
               multiple.indexOf(dataItem.id) !== -1 ? (
-                <div className="content">{dataItem.answer}</div>
+                <div className="acc-content">{dataItem.answer}</div>
               ) : null}
             </div>
           ))
