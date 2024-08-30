@@ -7,9 +7,13 @@ function HomePage() {
       label: "Accordian",
       path: "/accordian",
     },
+    {
+      label: "Random Color",
+      path: "/random-color",
+    },
   ];
-  return <div>{
-    projectsList.map(project => <Link to={project.path}>{project.label}</Link>)
+  return <div className="project-list">{
+    projectsList.map(project => <Link className="project" to={project.path}>{project.label}</Link>)
   }</div>;
 }
 
