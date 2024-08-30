@@ -11,6 +11,10 @@ function HomePage() {
       label: "Random Color",
       path: "/random-color",
     },
+    {
+      label: "Star Rating",
+      path: "/star-rating",
+    },
   ];
   return <div className="project-list">{
     projectsList.map(project => <Link className="project" to={project.path}>{project.label}</Link>)
