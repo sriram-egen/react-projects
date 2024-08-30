@@ -19,6 +19,10 @@ function HomePage() {
       label: "Image Slider",
       path: "/image-slider",
     },
+    {
+      label: "Load More Data",
+      path: "/load-more-data",
+    },
   ];
   return <div className="project-list">{
     projectsList.map(project => <Link className="project" to={project.path}>{project.label}</Link>)
