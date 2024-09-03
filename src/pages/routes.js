@@ -43,6 +43,10 @@ const routes = [
     label: "Custom Modal Popup",
     path: "/custom-modal-popup",
   },
+  {
+    label: "Github Profile Finder",
+    path: "/github-profile-finder",
+  },
 ];
 
 export default routes;

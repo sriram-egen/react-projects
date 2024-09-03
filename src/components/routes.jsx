@@ -1,16 +1,19 @@
 import { Routes, Route } from "react-router-dom";
-import AccordianPage from "../pages/accordian";
-import HomePage from "../pages/home";
-import RandomColor from "../pages/random-color";
-import StarRatingPage from "../pages/star-rating";
-import ImageSliderPage from "../pages/image-slider";
-import LoadMoreDataPage from "../pages/load-more-data";
-import TreeViewPage from "../pages/tree-view";
-import QrCodeGeneratorPage from "../pages/qr-code-generator";
-import ThemeGeneratorPage from "../pages/theme-generator";
-import ScrollIndicatorPage from "../pages/scroll-indicator";
-import CustomTabsPage from "../pages/custom-tabs";
-import CustomModalPopupPage from "../pages/custom-modal-popup";
+import {
+  AccordianPage,
+  HomePage,
+  RandomColor,
+  StarRatingPage,
+  ImageSliderPage,
+  LoadMoreDataPage,
+  TreeViewPage,
+  QrCodeGeneratorPage,
+  ThemeGeneratorPage,
+  ScrollIndicatorPage,
+  CustomTabsPage,
+  CustomModalPopupPage,
+  GithubProfileFinderPage,
+} from "../pages";
 
 export default function RouteLinks() {
   return (
@@ -27,6 +30,10 @@ export default function RouteLinks() {
       <Route path="/scroll-indicator" element={<ScrollIndicatorPage />} />
       <Route path="/custom-tabs" element={<CustomTabsPage />} />
       <Route path="/custom-modal-popup" element={<CustomModalPopupPage />} />
+      <Route
+        path="/github-profile-finder"
+        element={<GithubProfileFinderPage />}
+      />
     </Routes>
   );
 }
