@@ -23,6 +23,10 @@ function HomePage() {
       label: "Load More Data",
       path: "/load-more-data",
     },
+    {
+      label: "Tree View",
+      path: "/tree-view",
+    },
   ];
   return <div className="project-list">{
     projectsList.map(project => <Link className="project" to={project.path}>{project.label}</Link>)
