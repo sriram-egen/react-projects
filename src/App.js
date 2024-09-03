@@ -9,6 +9,7 @@ import LoadMoreDataPage from "./pages/load-more-data";
 import TreeViewPage from "./pages/tree-view";
 import QrCodeGeneratorPage from "./pages/qr-code-generator";
 import ThemeGeneratorPage from "./pages/theme-generator";
+import ScrollIndicatorPage from "./pages/scroll-indicator";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/tree-view" element={<TreeViewPage />} />
         <Route path="/qr-code-generator" element={<QrCodeGeneratorPage />} />
         <Route path="/theme-generator" element={<ThemeGeneratorPage />} />
+        <Route path="/scroll-indicator" element={<ScrollIndicatorPage />} />
       </Routes>
     </div>
   );

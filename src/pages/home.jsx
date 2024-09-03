@@ -35,6 +35,10 @@ function HomePage() {
       label: "Theme Generator",
       path: "/theme-generator",
     },
+    {
+      label: "Scroll Indicator",
+      path: "/scroll-indicator",
+    },
   ];
   return <div className="project-list">{
     projectsList.map(project => <Link className="project" to={project.path}>{project.label}</Link>)
