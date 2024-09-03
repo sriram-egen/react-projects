@@ -31,6 +31,10 @@ function HomePage() {
       label: "QR Code Generator",
       path: "/qr-code-generator",
     },
+    {
+      label: "Theme Generator",
+      path: "/theme-generator",
+    },
   ];
   return <div className="project-list">{
     projectsList.map(project => <Link className="project" to={project.path}>{project.label}</Link>)
