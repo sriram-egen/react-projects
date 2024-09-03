@@ -27,6 +27,10 @@ function HomePage() {
       label: "Tree View",
       path: "/tree-view",
     },
+    {
+      label: "QR Code Generator",
+      path: "/qr-code-generator",
+    },
   ];
   return <div className="project-list">{
     projectsList.map(project => <Link className="project" to={project.path}>{project.label}</Link>)
