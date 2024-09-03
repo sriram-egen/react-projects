@@ -10,6 +10,7 @@ import QrCodeGeneratorPage from "../pages/qr-code-generator";
 import ThemeGeneratorPage from "../pages/theme-generator";
 import ScrollIndicatorPage from "../pages/scroll-indicator";
 import CustomTabsPage from "../pages/custom-tabs";
+import CustomModalPopupPage from "../pages/custom-modal-popup";
 
 export default function RouteLinks() {
   return (
@@ -25,6 +26,7 @@ export default function RouteLinks() {
       <Route path="/theme-generator" element={<ThemeGeneratorPage />} />
       <Route path="/scroll-indicator" element={<ScrollIndicatorPage />} />
       <Route path="/custom-tabs" element={<CustomTabsPage />} />
+      <Route path="/custom-modal-popup" element={<CustomModalPopupPage />} />
     </Routes>
   );
 }

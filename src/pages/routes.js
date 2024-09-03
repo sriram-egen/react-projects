@@ -1,4 +1,4 @@
-const routes =  [
+const routes = [
   {
     label: "Accordian",
     path: "/accordian",
@@ -39,6 +39,10 @@ const routes =  [
     label: "Custom Tabs",
     path: "/custom-tabs",
   },
+  {
+    label: "Custom Modal Popup",
+    path: "/custom-modal-popup",
+  },
 ];
 
-export default routes
+export default routes;
