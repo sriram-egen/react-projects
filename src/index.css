@@ -7,25 +7,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.project-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: auto;
-  padding: 12px
-}
-
-.project {
-  background: black;
-  padding: 10px 20px;
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 10px;
-}
