@@ -47,6 +47,10 @@ const routes = [
     label: "Github Profile Finder",
     path: "/github-profile-finder",
   },
+  {
+    label: "Search String",
+    path: "/search-string",
+  },
 ];
 
 export default routes;

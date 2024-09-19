@@ -13,6 +13,7 @@ import {
   CustomTabsPage,
   CustomModalPopupPage,
   GithubProfileFinderPage,
+  SearchString,
 } from "../pages";
 
 export default function RouteLinks() {
@@ -34,6 +35,7 @@ export default function RouteLinks() {
         path="/github-profile-finder"
         element={<GithubProfileFinderPage />}
       />
+      <Route path="/search-string" element={<SearchString />} />
     </Routes>
   );
 }
