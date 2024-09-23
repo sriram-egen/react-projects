@@ -11,7 +11,7 @@ import ScrollIndicatorPage from "./scroll-indicator";
 import CustomTabsPage from "./custom-tabs";
 import CustomModalPopupPage from "./custom-modal-popup";
 import GithubProfileFinderPage from "./github-profile-finder";
-import SearchString from "./search-string";
+import SearchHighlightMarkJs from "./search-string/search-string-markjs";
 
 export {
   AccordianPage,
@@ -27,5 +27,5 @@ export {
   CustomTabsPage,
   CustomModalPopupPage,
   GithubProfileFinderPage,
-  SearchString,
+  SearchHighlightMarkJs,
 };
