@@ -51,6 +51,10 @@ const routes = [
     label: "Search String",
     path: "/search-string",
   },
+  {
+    label: "Faker JS",
+    path: "/faker-js",
+  },
 ];
 
 export default routes;

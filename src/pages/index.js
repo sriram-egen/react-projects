@@ -12,6 +12,7 @@ import CustomTabsPage from "./custom-tabs";
 import CustomModalPopupPage from "./custom-modal-popup";
 import GithubProfileFinderPage from "./github-profile-finder";
 import SearchHighlightMarkJs from "./search-string/search-string-markjs";
+import FakerJS from "./faker-js";
 
 export {
   AccordianPage,
@@ -28,4 +29,5 @@ export {
   CustomModalPopupPage,
   GithubProfileFinderPage,
   SearchHighlightMarkJs,
+  FakerJS,
 };

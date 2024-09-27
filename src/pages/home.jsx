@@ -12,6 +12,7 @@ function HomePage() {
         {routes.map((project) => (
           // <div className="flex items-center justify-center w-48 h-8 p-4">
           <Link
+            key={project.label}
             className="bg-blue-500 w-auto block text-center content-center rounded-md h-24 hover:bg-blue-300 text-2xl"
             to={project.path}
           >

@@ -14,6 +14,7 @@ import {
   CustomModalPopupPage,
   GithubProfileFinderPage,
   SearchHighlightMarkJs,
+  FakerJS,
 } from "../pages";
 
 export default function RouteLinks() {
@@ -36,6 +37,7 @@ export default function RouteLinks() {
         element={<GithubProfileFinderPage />}
       />
       <Route path="/search-string" element={<SearchHighlightMarkJs />} />
+      <Route path="/faker-js" element={<FakerJS />} />
     </Routes>
   );
 }
