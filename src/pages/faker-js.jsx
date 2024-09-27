@@ -6,14 +6,16 @@ import { useState } from "react";
 export default function FakerJS() {
   const [json, setJson] = useState(null);
 
-  const handleSubmit = (categories) => {
-    const json = {};
-
-    categories.forEach((category) => {
-      json[category.keyName] = faker[category.category][category.method]();
-    });
-
-    setJson(json);
+  const handleSubmit = ({ categories, numRecords }) => {
+    const records = [];
+    for (let i = 0; i < numRecords; i++) {
+      const item = {};
+      categories.forEach((category) => {
+        item[category.keyName] = faker[category.category][category.method]();
+      });
+      records.push(item);
+    }
+    setJson(records);
   };
 
   return (
